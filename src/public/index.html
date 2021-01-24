@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" ng-app = "expensesApp"><!--Inicializa como aplicación de angular-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semana 5 Grupo 2</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <base href="/">
+</head>
+<body ng-controller="ExpensesViewController">
+    <div class="encabezado">
+        <h1 class="letras">{{titulo}}</h1>
+    </div>
+
+    <div class="boton centro">
+        <a class="ejem1" href="#!/ejemplo1">Ejemplo1</a>
+        <a class="ejem2" href="#!/ejemplo2">Ejemplo2</a>
+        <a class="ejem3" href="#!/">Home</a>
+    </div>
+
+    <div class="container" ng-view>        
+    </div>
+
+    <!--Script-->
+    <script src="js/underscore-min.js"></script>
+    <script src="js/angular.min.js"></script>
+    <script src="js/angular-route.min.js"></script><!--Usar Extenciones-->
+    <script src="js/app.js"></script>
+</body>
+</html>

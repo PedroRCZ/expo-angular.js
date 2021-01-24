@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.encabezado{
+    display: grid;
+    background-color: #00af91;
+}
+.letras{
+    text-align: center;
+    padding: 10px;
+}
+.boton{ 
+    grid-template-areas:
+    "a a b b c c";
+}
+.centro{
+    display: grid;
+    justify-content: center;
+}
+.ejem1{
+    grid-area: a;
+}
+.ejem2{
+    grid-area: b;
+}
+.ejem3{
+    grid-area: c;
+}
+div a {
+    padding: 10px 15px ;
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+    border: black;
+    border-radius: 5px;
+    background-color: rgb(49, 47, 53);
+}
+.eliminar{
+    padding: 11px 15px ;
+    color: white;
+    text-decoration: none;
+    border: black;
+    border-radius: 5px;
+    background-color: rgb(49, 47, 53);
+}
+.ingreso{
+    margin: 10px 0;
+}
+button{
+    margin: 0;
+}
+.nom_materia{
+    margin: 10px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+}
+.titu{
+    background-color: cadetblue;
+}
+.cont{
+    padding: 10px;
+}
+.nuevo{
+    text-align: center;
+}
+.opciones{
+    display: grid;
+    justify-content: center;
+    grid-template-areas:
+    "a a b b c c";
+    margin-bottom: 5px;
+}
+.editar{
+    grid-area: a;
+    margin: 10px;
+}
+.eli{
+    grid-area: c;
+    margin: 0 10px 0 0;
+}
+.guarda{
+    padding: 11px 15px ;
+    color: white;
+    text-decoration: none;
+    border: black;
+    border-radius: 5px;
+    background-color: rgb(49, 47, 53);
+}
+.guardar{
+    grid-area: a;
+}
+.cancelar{
+    grid-area: c;
+    margin: 10px;
+}
+.registro{
+    margin: 10px 0;
+}
+.mat{
+    margin: 10px 0;
+}
+div input{
+    padding: 5px;
+    width: 500px;
+}

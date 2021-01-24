@@ -1,0 +1,27 @@
+<div class="centro">
+    <form name = "formulario">
+        <div class="registro">
+            <div>
+                Materia :
+            </div>
+            <div class="mat">
+                <input type="text" ng-model="materia.nombre" required>
+            </div>
+            <div>
+                Tarea : 
+            </div>
+            <div class="mat">
+                <input type="text" ng-model = "materia.descripcion" required>
+            </div>
+        </div>
+        <div class="opciones">
+            <div class="guardar">
+                <button class="guarda" type="button" ng-click="formulario.$valid && save()"> Guardar</button>
+            </div>
+            <div class="cancelar">
+                <a href="#!/ejemplo2"> cancelar </a>
+            </div>
+        </div>
+        
+    </form>
+</div>

@@ -1,0 +1,19 @@
+<div class="centro">
+    <div class="letras"> Uso de directiva ng-repeat</div>
+    <div class="letras"> Lista de pendientes </div>
+    <a class="nuevo" href="#!/edit">Nuevo</a>
+    <div>
+        <div class="nom_materia" ng-repeat="item in items">
+            <div class="letras titu">{{item.nombre}}</div>
+            <div class="cont">{{item.descripcion}}</div>
+            <div class="opciones">
+                <div class="editar"> 
+                    <a href="#!/edit/{{item.id}}">Editar</a>
+                </div>
+                <div class="eli">
+                    <button class ="eliminar" ng-click="remove(item)">Eliminar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
