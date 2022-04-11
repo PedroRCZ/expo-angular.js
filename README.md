@@ -1,6 +1,6 @@
 # expo-angular.js
 
-Practica de laboratorio de Programación V
+Práctica de laboratorio de Programación V
 
 * Node.JS
 * Express
